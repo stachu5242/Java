@@ -1,0 +1,14 @@
+package producerConsumerExample1;
+
+public class Producer extends Thread{
+
+	Value v;
+	String Name;
+	public Producer(Value v, String name)
+	{
+		this.v = v;
+		this.name= name;
+		
+	}
+	
+}

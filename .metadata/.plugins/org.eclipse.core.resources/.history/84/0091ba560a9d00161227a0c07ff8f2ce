@@ -1,0 +1,13 @@
+package producerConsumerExample1;
+
+public class PCTest1 
+{
+
+	public static void main(String[] args) 
+	{
+		BadValue v = new BadValue();
+		
+		
+	}
+
+}

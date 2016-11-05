@@ -1,0 +1,13 @@
+package singleton;
+
+public class SimpleSingleton {
+	
+	private static SimpleSingleton singletonInstance;
+	private static Date creationDate;
+	private static SimpleSingleton()
+	{
+		
+	}
+	
+
+}

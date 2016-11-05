@@ -1,0 +1,10 @@
+package overloadingAndOverriding;
+
+
+class Animal{};
+class Fish extends Animal{};
+
+
+public class Super {
+
+}

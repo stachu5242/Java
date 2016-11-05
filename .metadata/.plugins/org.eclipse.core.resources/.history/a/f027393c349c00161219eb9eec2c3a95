@@ -1,0 +1,13 @@
+package overloadingAndOverriding;
+
+
+class Animal{};
+class Fish extends Animal{};
+class Bird extends Animal{};
+class Chcken extends Bird{};
+class Eagle extends Bird{};
+class Karp extends Fish{};
+
+public class Super {
+
+}

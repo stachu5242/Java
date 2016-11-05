@@ -1,0 +1,26 @@
+package Linked_List;
+
+public class Data 
+{
+
+	int value;
+	
+	public Data(int v)
+	{
+		v = this.value;
+	}
+	
+	public Data()
+	{
+		this.value = 0;
+	}
+	
+	int compare(Data newData)
+	{
+		int v= this.value;
+		if(newData > v)
+		{
+			
+		}
+	}
+}

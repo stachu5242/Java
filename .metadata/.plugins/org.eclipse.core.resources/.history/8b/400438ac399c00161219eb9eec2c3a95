@@ -1,0 +1,15 @@
+package singleton;
+
+import java.util.*;
+
+public class SimpleSingleton {
+	
+	private static SimpleSingleton singletonInstance;
+	private static Date creationDate;
+	private static SimpleSingleton()
+	{
+		
+	};
+	
+
+}

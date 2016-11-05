@@ -1,0 +1,21 @@
+package producerConsumerExample1;
+
+public class GoodValue extends Value
+{
+	private boolean available = false;
+	public synchronized int get();
+	{
+		while (!available)
+		{
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		available = false;
+		notifyAll();
+		retunr value;
+	}
+}

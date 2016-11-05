@@ -1,0 +1,22 @@
+package Linked_List;
+
+public class Data 
+{
+
+	int value;
+	
+	public Data(int v)
+	{
+		v = this.value;
+	}
+	
+	public Data()
+	{
+		this.value = 0;
+	}
+	
+	public void print()
+	{
+		System.out.println("Value: "+this.value);
+	}
+}

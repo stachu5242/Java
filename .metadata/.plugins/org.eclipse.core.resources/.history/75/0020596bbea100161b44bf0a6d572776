@@ -1,0 +1,10 @@
+package Linked_List;
+
+public class EndNode extends Node
+{
+
+	
+	public EndNode(){};
+	
+	
+}

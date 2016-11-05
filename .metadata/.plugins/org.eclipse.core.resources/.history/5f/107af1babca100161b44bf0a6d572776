@@ -1,0 +1,18 @@
+package Linked_List;
+
+public class HeadNode extends Node
+{
+
+	private Node nextNode;
+	public HeadNode()
+	{
+		this.nextNode = new EndNode();
+	}
+	
+	@Override
+	public Node insert(Data newData)
+	{
+		
+	}
+	
+}

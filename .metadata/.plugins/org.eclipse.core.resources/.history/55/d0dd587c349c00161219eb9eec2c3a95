@@ -1,0 +1,20 @@
+package overloadingAndOverriding;
+
+
+class Animal{};
+class Fish extends Animal{};
+class Bird extends Animal{};
+class Chcken extends Bird{};
+class Eagle extends Bird{};
+class Karp extends Fish{};
+
+public class Super 
+{
+	public void m(Animal al, Animal a2) 
+	{
+		System.out.println("1");
+	}
+	public void m(Animal al, Fish f)
+	
+	
+}

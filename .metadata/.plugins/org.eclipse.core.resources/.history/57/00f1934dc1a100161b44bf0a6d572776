@@ -1,0 +1,11 @@
+package Linked_List;
+
+public class MyLinkedList {
+
+	private HeadNode myHead;
+	public MyLinkedList()
+	{
+		this.myHead = new HeadNode();
+	}
+	
+}

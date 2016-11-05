@@ -1,0 +1,8 @@
+package Linked_List;
+
+public class HeadNode extends Node
+{
+
+	private Node nextNode;
+	
+}

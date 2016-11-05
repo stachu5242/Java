@@ -1,0 +1,15 @@
+package overloadingAndOverriding;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		Animal a1 = new Animal();
+		Animal a2 = new Bird();
+		Fish f = new Karp();
+		Bird b1 = new Bird();
+		Bird b2 = new Eagle();
+		Chicken c = new Chicken();
+		
+	}
+
+}

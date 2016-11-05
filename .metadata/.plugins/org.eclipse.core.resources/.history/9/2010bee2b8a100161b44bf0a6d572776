@@ -1,0 +1,18 @@
+package Linked_List;
+
+public class Data 
+{
+
+	int value;
+	
+	public Data(int v)
+	{
+		v = this.value;
+	}
+	
+	public Data(int v)
+	{
+		this.value = 0;
+	}
+	
+}

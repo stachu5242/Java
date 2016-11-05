@@ -1,0 +1,16 @@
+package Linked_List;
+
+public class EndNode extends Node
+{
+
+	
+	public EndNode(){};
+	
+	@Override
+	public Node insert(Data newData)
+	{
+		InternalNode newNode = new InternalNode(newData,this);
+		
+	}
+	
+}

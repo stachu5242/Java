@@ -1,0 +1,14 @@
+
+public class Controller {
+	Sum sum;
+
+    public Controller(Sum sum) {
+        this.sum = sum;
+    }
+    
+    public void count() {
+        for (int i=0; i< 1000; i++) {
+            sum.add();
+        }
+    }
+}

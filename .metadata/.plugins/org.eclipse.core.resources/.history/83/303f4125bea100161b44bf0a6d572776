@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+.userName{
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #3333333;
+	-fx-effect: fropshadow(gausian,rgba(255,255,255,0.5),0,0,0,1);
+}
